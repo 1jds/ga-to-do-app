@@ -1,3 +1,3 @@
 # ga-to-do-app
 
-![alt text](to do list app illustrative screenshot.png)
+![alt text]("to do list app illustrative screenshot.png")
