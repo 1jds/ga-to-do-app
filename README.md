@@ -4,7 +4,7 @@ This repository hosts the code for a small homework task completed in the old cl
 
 Here is an illustrative image of the project running on http://localhost:3000/
 
-<img alt="Sample Screenshot Close" src="https://github.com/1jds/ga-to-do-app/blob/main/to-do-list-sample-img-focused.png" width="50%">
+<img alt="Sample Screenshot Close" src="https://github.com/1jds/ga-to-do-app/blob/main/to-do-list-sample-img-focused.png" width="75%">
 
 ## Pros & Cons
 
