@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5ab;
+  font-family: 'Lilita One', cursive;
+  font-size: 1.5rem;
+}
+
+:root {
+  --mainblue: #55c2da;
+}
+
+/* CSS copied from: https://getcssscan.com/css-buttons-examples */
+button {
+  background: var(--mainblue);
+  border: 1px solid var(--mainblue);
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito, roboto, proxima-nova, 'proxima nova', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 5px;
+  min-height: 30px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+button:hover,
+button:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: var(--mainblue);
+}
+
+button:active {
+  opacity: 0.5;
+}
+
+.urgent-button {
+  color: yellow;
+}
+.urgent-button:hover,
+.urgent-button:active {
+  background-color: yellow;
+  color: var(--mainblue);
+}
+
+.page-wrapper {
+  padding: 50px 75px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 4rem;
+}
+
+.controls-section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: start;
+}
+
+.controls-section > div > * {
+  margin-right: 7px;
+}
+
+.todo-item {
+  margin-top: 5px;
+  border-top: 1px solid gray;
+  display: flex;
+  align-items: center;
+}
+
+.todo-item > p {
+  margin-right: 10px;
+}
+
+.check-box-svg {
+  margin: 7px;
+  height: 25px;
+}
+
+.status-div {
+  padding: 0px 5px;
+  background-color: #ff4800;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: white;
+  height: 19px;
+  line-height: 20px;
+}
+
+.search-input {
+  font-size: 1.15rem;
+  /* line-height: 1rem; */
+  min-height: 1.65rem;
+  padding: 0px 8px;
+  border-radius: 6px;
+}
+
+input:focus, button:focus {
+    outline: 2px solid black;
+}
+
+input {
+  font-size: 1.15rem;
+}
+
+.add-btn {
+  all: unset;
+  margin-left: 0.5rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 0.1rem 0.3rem;
+}
+
+/*
+  Colors:
+    Resolved = #278300
+    Not urgent = #797654
+    Urgent = #ff4800
+    Original Insufficient Contrast Blue = #55c2da
+*/
